@@ -1,0 +1,64 @@
+body {
+    background-color: gainsboro;
+    margin: 250px 500px;
+}
+
+.barra-base {
+    width: 500px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 100px;
+    padding: 3px; 
+    margin: 5px;
+}
+
+.porcentaje10 {
+    height: 30px;
+    width: 50px;  
+    background-color: rgb(185, 231, 233);
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:20px;
+    
+}
+
+.porcentaje25 {
+    height: 30px;
+    width: 125px;  
+    background-color: rgb(185, 231, 233);
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:20px;
+}
+
+.porcentaje50 {
+    height: 30px;
+    width: 250px;  
+    background-color: rgb(185, 231, 233);
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:20px;
+}
+
+.porcentaje75 {
+    height: 30px;
+    width: 375px;  
+    background-color: rgb(185, 231, 233);
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:20px;
+}
+
+.porcentaje90 {
+    height: 30px;
+    width: 450px;  
+    background-color: rgb(185, 231, 233);
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size:20px;
+}

@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+    body {
+        background-color: cadetblue;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: cornflowerblue;
+        
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+header {
+    background-color: azure;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: blueviolet;
+}
+
+@media screen and (max-width:830px){
+   
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 830px) {
+
+    img{
+        display: none;
+    }
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    
+}

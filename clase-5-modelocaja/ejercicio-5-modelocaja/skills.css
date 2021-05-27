@@ -1,0 +1,123 @@
+body {
+    background-color: #07C8D1;
+    font-family: "Roboto";
+}
+
+main {
+    width: 375px;
+    height: 325px;
+    margin: 250px auto;
+    padding: 30 px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(25, 95, 107, 0.3);
+    box-sizing: border-box;
+}
+
+
+.learn {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    color: #3B435F;
+    margin-right: 80px;
+    padding: 25px 20px 20px 30px;
+    display: inline-block;
+}
+
+.view {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size:11px;
+    color: #7C8494;
+    padding: 5px 15px;
+    display:  inline-block;
+    border-style: solid;
+    border-color: #D4DAE6;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.user-interface {
+    margin-left: 30px;
+    width: 290px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    border-style: solid;
+    border-color: #D4DAE6 #D4DAE6 #D4DAE6 #f8639c;
+    border-width: 1px 1px 1px 4px;
+    border-radius: 5px;
+}
+
+.user-interface p {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color:#3B435F
+}
+
+.user-interface span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 11px;
+    color:#7C8494;
+    margin-top: 3px;
+}
+
+.frontend-dev {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 290px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    border-style: solid;
+    border-color: #D4DAE6 #D4DAE6 #D4DAE6 #d788ff;
+    border-width: 1px 1px 1px 4px;
+    border-radius: 5px;
+}
+
+.frontend-dev p {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color:#3B435F
+}
+
+.frontend-dev span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 11px;
+    color:#7C8494;
+    margin-top: 3px;
+}
+
+
+.devops {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 290px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    border-style: solid;
+    border-color: #D4DAE6 #D4DAE6 #D4DAE6 #ffa57c;
+    border-width: 1px 1px 1px 4px;
+    border-radius: 5px;
+}
+
+.devops p {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color:#3B435F
+}
+
+.devops span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 11px;
+    color:#7C8494;
+    margin-top: 3px;
+}

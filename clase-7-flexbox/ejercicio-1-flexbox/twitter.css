@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1da1f2;
+}
+
+main {
+    margin: 250px auto;
+    height: 250px;
+    width: 630px;
+    background-color: white;
+    font-family: Helvetica;
+    border-radius: 5px;
+}
+
+figure{
+    margin: 5px 0px 0px 20px;
+    padding-top: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+.usuario {
+    display: flex;
+}
+
+.userHandle {
+    margin: 8px 0px;
+    padding-left: 10px;
+}
+
+.user {
+    font-weight: bold;
+    font-size: 19px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.handle {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.tweet {
+    display:flex;
+    flex-direction: column;
+}
+
+.tweet p {
+    margin: 5px 0 0 20px;
+    font-size: 20px
+}
+
+time {
+    margin: 10px 0 0 20px;
+}
+
+hr {
+    width: 580px;
+    margin: 20px 10px 10px 20px;
+    border-top: 2px solid;
+    border-color: rgba(220, 220, 220, 0.3)
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    height: 30px;
+}
+
+.rts-likes {
+    display: flex;
+    align-items: center;
+    }
+
+.nro {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.interacciones {
+    margin-right: 10px;
+}
+
+.SRL {
+    display: flex;
+    align-items: center;
+}
+
+

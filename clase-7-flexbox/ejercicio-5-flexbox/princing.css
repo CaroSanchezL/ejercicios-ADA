@@ -1,0 +1,139 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+body {
+    height: 100%;
+    background-color: #333333;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+h1 {
+    margin: 41px 0 5px 0
+}
+
+main>p {
+    margin: 10px 0 55px 0
+}
+
+.pricingDetails {
+    display: flex;
+    height: 100%;
+    width: 75%;
+    justify-content: space-around;
+    margin-top: 15px;
+    }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    background-color: #434343;
+    border: 1px solid rgb(147 147 147);
+    border-radius: 10px;    
+    
+}
+
+.card:hover {
+    background-color: #585858;
+    border-color: #fff;
+    
+}
+
+.card h2 {
+    margin-top: 10%;
+    font-weight: 500;
+    font-size: 28px
+}
+
+.card-price {
+    display: flex;
+    margin-top: 28px;
+    font-size: 48px;
+    margin-bottom: 4px
+}
+
+.card-price span {
+    font-size: 27px;
+    margin-top: 3px;
+    
+}
+
+.card-description {
+    margin-top: 10px;
+}
+
+
+.card-list {
+    font-size: 20px;
+    align-self: flex-start;
+    list-style: none;
+    margin: 25px 0 0 0;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+ul li:before {
+    content: '✓'; 
+    padding-right: 0.7em;
+   }
+
+.medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29.5%;
+    height: 90%;
+    background-color: rgb(67, 67,67);
+    border: 1px solid rgb(147 147 147);
+    border-radius: 10px;
+}
+
+.large {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29.5%;
+    height: 90%;
+    background-color: rgb(67, 67,67);
+    border: 1px solid rgb(147 147 147);
+    border-radius: 10px;       
+}
+
+.choose {
+    color: #217fa5;
+    background-color: #c7c7c7;
+    font-size: 13px;
+    font-weight: 700;
+    width: 88%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.startUp-choose {
+    margin: 120px 0 0 0;
+}
+
+.medium-choose {
+    margin: 62px 0 0 0;
+}
+
+.large-choose {
+    margin: 33px 0 0 0;
+}
