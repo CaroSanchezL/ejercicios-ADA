@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.box{
+    margin: 5px;
+    height: 110px;
+}
+
+.large {
+    width: 100px;
+    height: 100px;
+    background-color: #bbb8b8;
+    z-index: 0;
+}
+
+.medium {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0000;
+    z-index: 1;
+    position: relative;
+}
+
+.medium-one, .medium-five, .medium-seven {
+    bottom: 100px;
+}
+
+.medium-two, .medium-three, .medium-four, .medium-six, .medium-eight {
+    bottom: 60px;
+}
+
+.medium-three, .medium-six, .medium-five {
+    left: 40px;
+}
+
+.medium-seven, .medium-eight, .medium-nine {
+    left: 20px;
+}
+
+.medium-nine {
+    bottom: 80px
+}
+
+.small {
+    width: 30px;
+    height: 30px;
+    background-color: #2e8b57;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.small-one, .small-four, .small-seven, .small-eight {
+    bottom: 90px;
+}
+
+.small-one {    
+    left: 70px;
+}
+
+.small-two, .small-three{
+    bottom: 160px;
+    left: 70px;
+}
+
+.small-four  {
+    left: 30px;
+}
+
+.small-five, .small-six{
+    left: 40px
+}
+
+.small-five {
+    bottom: 130px;
+}
+
+.small-six {
+    bottom: 120px;
+}
+
+.small-eight, .small-nine {
+    left: 35px
+}
+
+.small-nine {
+    bottom: 125px;
+}
